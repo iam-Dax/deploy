@@ -1,0 +1,67 @@
+/* Cascading Style Sheets  */
+h1{
+    color: aqua;
+    text-align: center;
+    margin: 20px;
+    border: 3px solid;
+    padding: 10px 20px 10px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold; /* in đậm*/
+
+
+}
+table {
+    border: 1px solid black;
+    margin: 15px 10px;
+    border-collapse: collapse;
+    padding: 10px;
+    background-color: aquamarine;
+}
+td,th {
+    border: 1px solid black;
+    padding: 10px;
+}
+#text1{
+    color: blueviolet;
+    text-align: center;
+}
+.text{
+    text-align: center;
+    background-color: antiquewhite;
+    color: brown;
+}
+a[href="http://facebook.com"]{
+    color :rgb(228, 26, 26)
+}
+.hovertest{
+    width: 100px;
+    height: 100px;
+    font-size: 25 px;
+    background-color: aqua;
+}
+.hovertest:hover{
+    background-color: blue;
+}
+/* mức độ ưu tiên inline>id>class>type (type là các thẻ của html vd như H1) */
+
+/* id dùng # class dùng . */
+
+/* khi tạo html xong sẽ có sẵn 1 khối
+border là viền bo ngoài khối
+bên ngoài border là margin
+bên trong viền là padding đến khối
+khi sử dụng margin , border , padding sẽ làm khối rộng ra  */
+
+
+
+/* 
+div, p     Chọn tất cả các phần tử <div>và phần tử <p>
+div p      Chọn tất cả các phần tử <p> và bên trong phần tử  <div>
+div > p    Chọn tất cả các phần tử <p> có phần tử cha là <div>
+div + p    Chọn tất cả các phần tử <p> được đặt phía sau liền kề phần tử  <div>
+a:hover    Chọn các liên kết khi chuột di chuyển qua
+a:link     Chọn tất cả các liên kết khi chưa được click
+p:first-child     Chọn các phần tử  <p> có phần tử đầu tiên của phần tử cha chứa nó
+p::first-letter   Chọn kí tự đầu tiên của phần tử  <p>
+p::first-line     Chọn dòng đầu tiên của các phần tử <p> */
